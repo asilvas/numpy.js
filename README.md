@@ -2,6 +2,9 @@
 
 AKA Yet-Another-Numpy-to-JS-Port.
 
+[![CircleCI](https://circleci.com/gh/asilvas/numpy.js.svg?style=svg)](https://circleci.com/gh/asilvas/numpy.js)
+
+
 ## Why
 
 There are a number numpy-to-JS ports out there that cover a small subset of Numpy, especially on the easier stuff.
