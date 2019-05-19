@@ -13,13 +13,26 @@ implementations.
 ## Usage
 
 ```
-const { linspace, nonzero, shape, subtract } = require('numpy.js');
+const numpy = require('numpy.js');
 ```
 
-* linspace - https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html
-* nonzero - https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.nonzero.html
-* shape - https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.shape.html
-* subtract - https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.subtract.html
+Supported functions/classes and docs:
+
+* `amax` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.amax.html
+* `digitize` - https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.digitize.html#numpy.digitize
+* `dstack` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.dstack.html
+* `linspace` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html
+* `meshgrid` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.meshgrid.html
+* `ndarray.flat` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.flat.html
+* `nditer` - https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.nditer.html
+* `nonzero` - https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.nonzero.html
+* `ravel_multi_index` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.ravel_multi_index.html
+* `shape` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.shape.html
+* `subtract` - https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.subtract.html
+* `transpose` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.transpose.html
+* `unravel_index` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.unravel_index.html#numpy.unravel_index
+* `vstack` - https://docs.scipy.org/doc/numpy/reference/generated/numpy.vstack.html
+
 
 ## Testing
 
@@ -27,7 +40,7 @@ const { linspace, nonzero, shape, subtract } = require('numpy.js');
 npm test
 ```
 
-All tests were designed and verified against official Python Numpy.
+All (> 80) tests were designed and verified against official Python Numpy.
 
 
 ## Contribution

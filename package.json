@@ -1,6 +1,6 @@
 {
   "name": "numpy.js",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Port of various Numpy functions to JavaScript",
   "main": "./src",
   "scripts": {
