@@ -6,6 +6,9 @@
   "scripts": {
     "test": "ava"
   },
+  "engines" : {
+    "node" : ">=10.13.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asilvas/numpy.js.git"
