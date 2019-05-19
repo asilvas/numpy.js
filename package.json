@@ -1,0 +1,25 @@
+{
+  "name": "numpy.js",
+  "version": "0.1.0",
+  "description": "Port of various Numpy functions to JavaScript",
+  "main": "./src",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asilvas/numpy.js.git"
+  },
+  "keywords": [
+    "numpy"
+  ],
+  "author": "Aaron Silvas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asilvas/numpy.js/issues"
+  },
+  "homepage": "https://github.com/asilvas/numpy.js#readme",
+  "devDependencies": {
+    "ava": "^1.4.1"
+  }
+}
